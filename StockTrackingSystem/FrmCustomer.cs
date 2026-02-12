@@ -199,5 +199,7 @@ namespace StockTrackingSystem
             txtCustomerSurname.Text = dataGridViewCustomers.Rows[selectedRow].Cells["CustomerSurname"].Value.ToString();
             mskPhone.Text = dataGridViewCustomers.Rows[selectedRow].Cells["Phone"].Value.ToString();
         }
+
+        
     }
 }
